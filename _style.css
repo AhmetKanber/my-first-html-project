@@ -1,0 +1,21 @@
+#tablo {
+    color: rgb(14, 17, 222);
+    width: 40%;
+    text-align: center;
+}
+
+
+p.gün0 {
+    color: red;
+}
+
+
+p {
+    border-bottom: 2px solid blue;
+    border-top: 2px solid red;
+}
+
+
+td {
+    border-bottom: 2px solid yellowgreen;
+}
