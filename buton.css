@@ -1,0 +1,48 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: bisque;
+}
+
+.btn{
+    width: 150px;
+    height: 50px;
+    border: 10px;
+    background-color: aqua;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn::before{
+    color: white;
+    font-family: sans-serif;
+    content: 'hover me';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+    transition: all 0.5s;
+}
+.btn:hover::before{
+    top: -25px;
+}
+.btn::after{
+    font-family: 'Ionicons';
+    content: '\f141';
+    color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    top: 140%;
+    font-size: 40px;
+    transition: all 0.5s;
+}
+.btn:hover::after{
+    top: 50%;
+}
